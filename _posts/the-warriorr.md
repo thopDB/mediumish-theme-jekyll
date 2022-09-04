@@ -12,4 +12,5 @@ dir: N. Linguswamy
 ---
 
 ###Story Line:
+
 When Satya raises his voice against Guru, the latter revolts and bashes the former to hell. Satya makes a comeback as a cop to take revenge on Guru and put an end to his crime in Kurnool city.
