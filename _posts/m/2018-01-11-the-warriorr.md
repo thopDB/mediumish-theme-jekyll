@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "The Warriorr"
-categories: [ 2022, Telugu ]
+categories: [ Telugu ]
 tags: [Ram Pothineni,Krithi Shetty,Aadhi]
 image: assets/images/The-Warriorr.jpg
 description: "The Warriorr Telugu Full Movie Download and watch online 720p low file size 500 mb."
