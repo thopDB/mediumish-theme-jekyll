@@ -1,31 +1,31 @@
 <ul id="playlist" class="ep-select"><table id="eplist"><tbody>
 <tr>
 <td class="ep-pl-button"><li><a class="video-link" id="no-link" data-button="ibomma-server-select" data-index="1"><button><i class="icon-play"></i><br>EP:1</button></a></li></td>
-<td class="ep-name"><b>It's Meghana Sir</b></td>
+<td class="ep-name"><b>{{page.ep-name1}}</b></td>
 <td class="ep-dl-button"><a class="button-dl-css" id="no-link"> <button><i class="icon-cloud-download"></i><br>DL</button></a></td>
 </tr> <tr>
 <td class="ep-pl-button"><li><a class="video-link" id="no-link" data-button="ibomma-server-select" data-index="2"><button><i class="icon-play"></i><br>EP:2</button></a></li></td>
-<td class="ep-name"><b>Are Entra Idi</b></td>
+<td class="ep-name"><b>{{page.ep-name2}}</b></td>
 <td class="ep-dl-button"><a class="button-dl-css" id="no-link"> <button><i class="icon-cloud-download"></i><br>DL</button></a></td>
 </tr> <tr>
 <td class="ep-pl-button"><li><a class="video-link" id="no-link" data-button="ibomma-server-select" data-index="3"><button><i class="icon-play"></i><br>EP:3</button></a></li></td>
-<td class="ep-name"><b>Chala Unnai... Dacham</b></td>
+<td class="ep-name"><b>{{page.ep-name3}}</b></td>
 <td class="ep-dl-button"><a class="button-dl-css" id="no-link"> <button><i class="icon-cloud-download"></i><br>DL</button></a></td>
 </tr> <tr>
 <td class="ep-pl-button"><li><a class="video-link" id="no-link" data-button="ibomma-server-select" data-index="4"><button><i class="icon-play"></i><br>EP:4</button></a></li></td>
-<td class="ep-name"><b>Daagudumoota Dandakor</b></td>
+<td class="ep-name"><b>{{page.ep-name4}}</b></td>
 <td class="ep-dl-button"><a class="button-dl-css" id="no-link"> <button><i class="icon-cloud-download"></i><br>DL</button></a></td>
 </tr> <tr>
 <td class="ep-pl-button"><li><a class="video-link" id="no-link" data-button="ibomma-server-select" data-index="5"><button><i class="icon-play"></i><br>EP:5</button></a></li></td>
-<td class="ep-name"><b>Pakdo Pakdo</b></td>
+<td class="ep-name"><b>{{page.ep-name5}}</b></td>
 <td class="ep-dl-button"><a class="button-dl-css" id="no-link"> <button><i class="icon-cloud-download"></i><br>DL</button></a></td>
 </tr> <tr>
 <td class="ep-pl-button"><li><a class="video-link" id="no-link" data-button="ibomma-server-select" data-index="6"><button><i class="icon-play"></i><br>EP:6</button></a></li></td>
-<td class="ep-name"><b>Haridas</b></td>
+<td class="ep-name"><b>{{page.ep-name6}}</b></td>
 <td class="ep-dl-button"><a class="button-dl-css" id="no-link"> <button><i class="icon-cloud-download"></i><br>DL</button></a></td>
 </tr> </tbody></table></ul>
 <script>const urls = [
-'https://mdisk.thopdbapp.workers.dev/?url=8GnKtG','https://mdisk.thopdbapp.workers.dev/?url=ehvm4R','https://weqnipiuor-ikcuv-zeijwbqdia.ibo.link/player/ns-inNnzIqP1Hj8NQHpsuHqdqoq/in/?link=aHR0cHM6Ly9zMjA0Lmlib21tYS5kb3dubG9hZC9BZ2VudC1BbmFuZC1TYW50b3NoLVMwMS12NGdmcy0yMDIyL0FnZW50LUFuYW5kLVNhbnRvc2gtUzAxLUUwMy5tcDQ=','https://weqnipiuor-ikcuv-zeijwbqdia.ibo.link/player/ns-inNnzIqP1Hj8NQHpsuHqdqoq/in/?link=aHR0cHM6Ly9zMjA0Lmlib21tYS5kb3dubG9hZC9BZ2VudC1BbmFuZC1TYW50b3NoLVMwMS12NGdmcy0yMDIyL0FnZW50LUFuYW5kLVNhbnRvc2gtUzAxLUUwNC5tcDQ=','https://weqnipiuor-ikcuv-zeijwbqdia.ibo.link/player/ns-inNnzIqP1Hj8NQHpsuHqdqoq/in/?link=aHR0cHM6Ly9zMjA0Lmlib21tYS5kb3dubG9hZC9BZ2VudC1BbmFuZC1TYW50b3NoLVMwMS12NGdmcy0yMDIyL0FnZW50LUFuYW5kLVNhbnRvc2gtUzAxLUUwNS5tcDQ=','https://weqnipiuor-ikcuv-zeijwbqdia.ibo.link/player/ns-inNnzIqP1Hj8NQHpsuHqdqoq/in/?link=aHR0cHM6Ly9zMjA0Lmlib21tYS5kb3dubG9hZC9BZ2VudC1BbmFuZC1TYW50b3NoLVMwMS12NGdmcy0yMDIyL0FnZW50LUFuYW5kLVNhbnRvc2gtUzAxLUUwNi5tcDQ=',]
+'{{page.ep1}}','{{page.ep2}}','{{page.ep3}}','{{page.ep4}}','{{page.ep5}}','{{page.ep6}}',]
 const iframe = document.querySelector('iframe')
 const buttons = document.querySelectorAll('[data-button="ibomma-server-select"]')
 function setIframe() {buttons.forEach(button => {button.classList.remove('active')
