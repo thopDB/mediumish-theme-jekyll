@@ -11,6 +11,9 @@ watch: https://mdisk.thopdbapp.workers.dev/?url=ehvm4R
 ep-name1: episode - 1
 ep-dw1: https://www1.thopdb.com/?url=ehvm4R
 ep1: https://mdisk.thopdbapp.workers.dev/?url=ehvm4R
+ep-name2: episode - 2
+ep-dw2: https://www1.thopdb.com/?url=ehvm4R
+ep2: https://mdisk.thopdbapp.workers.dev/?url=ehvm4R
 dir: Taika Waititi
 ---
 
