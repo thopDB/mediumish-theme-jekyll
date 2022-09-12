@@ -45,6 +45,21 @@ post_class: post-template
  {% include iframe.html %}
  {% endif %}
 {% include playlist.html %}
+<script>const urls = [
+'{{page.ep1}}','{{page.ep2}}','{{page.ep3}}','{{page.ep4}}','{{page.ep5}}','{{page.ep6}}',]
+const iframe = document.querySelector('iframe')
+const buttons = document.querySelectorAll('[data-button="ibomma-server-select"]')
+function setIframe() {buttons.forEach(button => {button.classList.remove('active')
+})
+this.classList.add('active')
+let index = this.getAttribute('data-index');index = index - 1
+console.log(index);iframe.src = urls[index]
+localStorage.setItem('{{ site.baseurl }}{{ post.url }}', index)
+}buttons.forEach(button => {button.addEventListener('click', setIframe)
+})
+let defaultIndex = localStorage.getItem('{{ site.baseurl }}{{ post.url }}') || 0;
+buttons[defaultIndex].click()
+</script>
 <div class="entry-content">
 {{content}}
 </div>
