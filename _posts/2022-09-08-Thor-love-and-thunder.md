@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: web
 title:  "Thor: Love and Thunder (2022)"
 categories: [ English ]
 tags: [Chris Hemsworth, Natalie Portman, Christian Bale, Tessa Thompson]
