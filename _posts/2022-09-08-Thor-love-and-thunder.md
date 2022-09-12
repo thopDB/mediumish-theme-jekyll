@@ -8,6 +8,9 @@ description: "Thor: Love and Thunder (2022) Full Movie Download and watch online
 trailer: https://www.youtube.com/watch?v=Go8nTmfrQd8
 download: https://www1.thopdb.com/?url=ehvm4R
 watch: https://mdisk.thopdbapp.workers.dev/?url=ehvm4R
+ep-name1: episode - 1
+ep-dw1: https://www1.thopdb.com/?url=ehvm4R
+ep1: https://mdisk.thopdbapp.workers.dev/?url=ehvm4R
 dir: Taika Waititi
 ---
 
