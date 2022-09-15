@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: web
 title:  "Maha(2022)"
 categories: [ Telugu ]
 tags: [Silambarasan Rajendar, Hansika Motwani, U.R.Jameel]
