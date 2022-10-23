@@ -35,6 +35,7 @@ authors:
 # Plugins
 plugins:
   - jekyll-paginate
+  - jekyll-paginate-categories
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
@@ -51,6 +52,9 @@ jekyll-archives:
 # Pagination 
 paginate: 8
 paginate_path: /page:num/
+
+paginate_category_basepath: '/c/:name/'
+paginate_category_layout: 'category-test.html'
     
 # Other
 markdown: kramdown
