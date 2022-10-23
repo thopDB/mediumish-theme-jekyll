@@ -54,7 +54,7 @@ paginate: 8
 paginate_path: /page:num/
 
 paginate_category_basepath: '/c/:name/'
-paginate_category_layout: 'category-test.html'
+paginate_category_layout: 'ibommaa.html'
     
 # Other
 markdown: kramdown
