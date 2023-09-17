@@ -1,5 +1,5 @@
 ---
-layout: webseries
+layout: post
 title:  "Let's test spoilers"
 author: sal
 categories: [ Jekyll, tutorial ]

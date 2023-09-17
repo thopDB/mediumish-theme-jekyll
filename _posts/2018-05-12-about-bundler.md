@@ -3,10 +3,8 @@ layout: post
 title:  "About Bundler"
 author: sal
 categories: [ Jekyll ]
-image: assets/images/m1.jpg
+image: assets/images/2.jpg
 rating: 3
-download: https://jamstackthemes.dev/theme/react-portfolio-template/
-play: https://jamstackthemes.dev/theme/
 ---
 `gem install bundler` installs the bundler gem through RubyGems. You only need to install it once - not every time you create a new Jekyll project. Here are some additional details:
 
